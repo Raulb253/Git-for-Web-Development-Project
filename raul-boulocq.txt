@@ -1,0 +1,74 @@
+code pen link:
+
+1. What is Semantic HTML? 
+HTML that provides meaning to our content and is understood by machines and developers.
+    2. What is HTML used for? 
+    To provide structure to our website.
+    3. What is an attribute and where do we put it? 
+    It's the characteristic or property of an element and it goes in the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    It's used to denote the title of the document and should only be used once.
+    5. Name two tags that have required attributes
+    img and input tags
+    6. What do we put in the head of our HTML document? 
+    the head tag which would contain metadata.
+    7. What is an id? 
+    is a unique attribute that can only be used once.
+    8. What elements can I add an id to? 
+    All elements.
+    9. How many times can I use the same id on a page?
+    Once. 
+    10. What is a class? 
+    an attribute that can be applied to more than one element.
+    11. What elements can I add a class to? 
+    All elements.
+    12. How many times can I use the same class on a page? 
+    Unlimited.
+    13. How do I get my link to open in a new tab?
+    add <target="_blank"> anchor tag to the href attribute.
+    14. What is the alt attribute in the image tag used for? 
+    a description of the image in case it fails to load.
+    15. How do I reference an id?
+    with the #id
+    16. What is the difference between a section and a div
+    Section is grouping of content based on a theme. Div tag bears no sort of grouping on the content inside it.
+    17. What is CSS used for? 
+    Styling of the html content.
+    18. How to we select an element? Example - every h2 on the page
+    just type h2 with curly braces after.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. id tag is limited to one element whereas class can be used on multiple elements. One might use the class attirbute to style to pieces of content similarly despite not sharing a common parent element. The id tag would be used to style 1 piece of content differently from the rest.
+    20. How do we select classes in CSS?
+    with a .class
+    21. How do we select a p element with a single class of “human””?
+    p.human
+    22. What is a parent child selector? When would this be useful?
+    It's a selected element with a parent element to target a specific element. It's useful to select a specific element within a parent element.
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector?
+    a pseudo selector defines the special state of an element.
+    25. What do we use the change the spacing between lines?
+    use the line-height property.
+    26. What do we use to change the spacing between letters?
+    the letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    Text-transform property. Uppercase value for all caps, lowercase value for all lowercase, and capitalize to capitalize every word at the begining of a sentance.
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    *{}
+    30. How do I write a comment in CSS?
+    /*Comment goes in here*/
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+    36. What is the command we would use to push our repo up to github? 
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
