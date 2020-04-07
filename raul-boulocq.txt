@@ -1,4 +1,4 @@
-code pen link:
+code pen link: https://codepen.io/aesthletic/pen/QWjLwLN?editors=1100
 
 1. What is Semantic HTML? 
 HTML that provides meaning to our content and is understood by machines and developers.
@@ -44,6 +44,7 @@ HTML that provides meaning to our content and is understood by machines and deve
     22. What is a parent child selector? When would this be useful?
     It's a selected element with a parent element to target a specific element. It's useful to select a specific element within a parent element.
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar{}
     24. What is a pseudo selector?
     a pseudo selector defines the special state of an element.
     25. What do we use the change the spacing between lines?
@@ -53,6 +54,7 @@ HTML that provides meaning to our content and is understood by machines and deve
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     Text-transform property. Uppercase value for all caps, lowercase value for all lowercase, and capitalize to capitalize every word at the begining of a sentance.
     28. How do I add a 1px border around my div that is dotted and black?
+    div {boder: dotted 1px black;}
     29. How do I select everything on the page? 
     *{}
     30. How do I write a comment in CSS?
@@ -70,12 +72,13 @@ HTML that provides meaning to our content and is understood by machines and deve
     36. What is the command we would use to push our repo up to github? 
     git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
-    
+    fork->add TL->Clone/copy link->git clone <link> in desired directory->cd <repo-name>->git checkout -b 'firstname-lastname'->work on assignment->git add .->git commit -m "relevant message" git push-u origin branch-name
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
     2. What happens when an element is positioned absolutely? 
+    its positioning is fixed. Directional properties given to it offset it from the elements containing block.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
